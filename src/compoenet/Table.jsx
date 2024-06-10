@@ -67,6 +67,7 @@ const TableData = ({ setInputValue }) => {
       <Table
         columns={columns}
         dataSource={todos}
+        filtered={filterData}
         key={todos.id}
         updateModal={updateModal}
         records={setTodoRecord}
