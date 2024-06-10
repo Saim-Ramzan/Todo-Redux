@@ -1,0 +1,11 @@
+body {
+  background: darkmagenta;
+}
+
+.ant-table-cell {
+  width: 50%;
+}
+
+.ant-table-row.row-red {
+  background-color: #ffcaca !important;
+}
